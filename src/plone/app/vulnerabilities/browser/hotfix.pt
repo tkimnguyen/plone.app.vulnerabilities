@@ -24,9 +24,9 @@
 
         <h1> Announce </h1>
 
-        <h2>Available downloads</h2>
-
         <div tal:condition="context/hotfix">
+          <h2>Available downloads</h2>
+
           <a class="link-plain" href="" tal:attributes="href string:${context/absolute_url}/@@download/hotfix">
             <img src="http://plone.org/platform_all_platforms.gif" alt="" style="float: left; display: block; margin: 1em 1em 1em 1em;">
           </a>
